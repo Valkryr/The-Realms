@@ -1,37 +1,60 @@
-body {
+body, html {
+    height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.header, .footer {
+
+.container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px; /* Footer height */
+}
+
+.header {
     background-color: #5058af;
     color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
 .logo, .footer-text {
     font-size: 24px;
 }
+
 .nav-links, .social-links {
     list-style: none;
 }
+
 .nav-links li, .social-links li {
     display: inline;
     margin-left: 20px;
 }
+
 .nav-links a, .social-links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
+
 .nav-links a:hover, .social-links a:hover {
     text-decoration: underline;
 }
+
 .footer {
-    justify-content: center;
+    background-color: #5058af;
+    color: white;
     text-align: center;
+    padding: 20px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+
 .footer-text {
-    margin-right: 20px; /* Creates spacing between text and icons */
+    margin-right: 20px; /* Spacing between text and icons */
 }
