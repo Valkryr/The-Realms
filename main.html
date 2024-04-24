@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Realms - Tabletop and Hobby</title>
+    <title>Game and Hobby Store</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .header {
+        .header, .footer {
             background-color: #5058af;
             color: white;
             padding: 10px 20px;
@@ -17,29 +17,36 @@
             justify-content: space-between;
             align-items: center;
         }
-        .logo {
+        .logo, .footer-text {
             font-size: 24px;
         }
-        .nav-links {
+        .nav-links, .social-links {
             list-style: none;
         }
-        .nav-links li {
+        .nav-links li, .social-links li {
             display: inline;
             margin-left: 20px;
         }
-        .nav-links a {
+        .nav-links a, .social-links a {
             color: white;
             text-decoration: none;
             font-size: 18px;
         }
-        .nav-links a:hover {
+        .nav-links a:hover, .social-links a:hover {
             text-decoration: underline;
+        }
+        .footer {
+            justify-content: center;
+            text-align: center;
+        }
+        .footer-text {
+            margin-right: 20px; /* Creates spacing between text and icons */
         }
     </style>
 </head>
 <body>
     <header class="header">
-        <div class="logo">The Realms</div>
+        <div class="logo">Game and Hobby Store</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#products">Products</a></li>
@@ -47,5 +54,16 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-text">© 2024 Game and Hobby Store</span>
+            <ul class="social-links">
+                <li><a href="https://facebook.com" target="_blank">FB</a></li>
+                <li><a href="https://twitter.com" target="_blank">TW</a></li>
+                <li><a href="https://instagram.com" target="_blank">IG</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
