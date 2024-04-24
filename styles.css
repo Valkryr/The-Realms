@@ -4,6 +4,13 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    color: #5058af;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
 .container {
     min-height: 100%;
     position: relative;
