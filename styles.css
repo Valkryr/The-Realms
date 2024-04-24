@@ -75,32 +75,27 @@ body, html {
 }
 
 .footer-text {
-    margin-right: 20px; /* Spacing between text and icons */
-}
-.dropdown {
-    position: relative;
+    margin-bottom: 10px; /* Provides spacing between text and icons */
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
+.social-links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
     text-decoration: none;
-    display: block;
+    font-size: 16px;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.social-links a:hover {
+    color: #77e4db; /* Changes color on hover for visual feedback */
 }
