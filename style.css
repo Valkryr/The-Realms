@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header, .footer {
+    background-color: #5058af;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .footer-text {
+    font-size: 24px;
+}
+.nav-links, .social-links {
+    list-style: none;
+}
+.nav-links li, .social-links li {
+    display: inline;
+    margin-left: 20px;
+}
+.nav-links a, .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links a:hover, .social-links a:hover {
+    text-decoration: underline;
+}
+.footer {
+    justify-content: center;
+    text-align: center;
+}
+.footer-text {
+    margin-right: 20px; /* Creates spacing between text and icons */
+}
